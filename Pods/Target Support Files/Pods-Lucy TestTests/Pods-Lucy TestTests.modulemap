@@ -1,0 +1,6 @@
+framework module Pods_Lucy_TestTests {
+  umbrella header "Pods-Lucy TestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module FeathersSwiftSocketIO {
+  umbrella header "FeathersSwiftSocketIO-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,39 @@
+PODS:
+  - Feathers (5.2.0):
+    - Feathers/Core (= 5.2.0)
+  - Feathers/Core (5.2.0):
+    - KeychainSwift
+    - ReactiveSwift
+    - Result
+  - FeathersSwiftSocketIO (3.1.0):
+    - FeathersSwiftSocketIO/Core (= 3.1.0)
+  - FeathersSwiftSocketIO/Core (3.1.0):
+    - Feathers
+    - ReactiveSwift
+    - Result
+    - Socket.IO-Client-Swift
+  - KeychainSwift (8.0.2)
+  - ReactiveSwift (1.1.3):
+    - Result (~> 3.2)
+  - Result (3.2.3)
+  - Socket.IO-Client-Swift (10.0.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Feathers
+  - FeathersSwiftSocketIO
+  - Socket.IO-Client-Swift (~> 10.0.1)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Feathers: 67c896ca0dcf90158f470f6539e6e189ec8361d7
+  FeathersSwiftSocketIO: 145e60976624cbfa2dab674688ee48bd35166e72
+  KeychainSwift: 213db04dfe7244988e61f77c72a2afb2f775954a
+  ReactiveSwift: f54ba12c2e799003432930fa55495315ae44f32b
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  Socket.IO-Client-Swift: f6553633ba6a01df8f1c8b583ec36560901e9de6
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 4a41dd17dd1a27b41521e591b9b737e2de427bde
+
+COCOAPODS: 1.2.1

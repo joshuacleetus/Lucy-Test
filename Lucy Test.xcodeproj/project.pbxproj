@@ -14,6 +14,10 @@
 		79C887B61F046E0500C72B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C887B41F046E0500C72B75 /* LaunchScreen.storyboard */; };
 		79C887C11F046E0500C72B75 /* Lucy_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C887C01F046E0500C72B75 /* Lucy_TestTests.swift */; };
 		79C887CC1F046E0500C72B75 /* Lucy_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C887CB1F046E0500C72B75 /* Lucy_TestUITests.swift */; };
+		79CAB8F61F049A4C000C1D94 /* LucyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAB8F51F049A4C000C1D94 /* LucyTableViewCell.swift */; };
+		E18DF81A20389DFF43B5159E /* Pods_Lucy_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BB20CA149CC023C378AC37 /* Pods_Lucy_Test.framework */; };
+		E27071EE9D84CC084B230CB7 /* Pods_Lucy_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FE1F5F2088667C7D63981C /* Pods_Lucy_TestTests.framework */; };
+		F0D89967A4AEC6D4F65A3243 /* Pods_Lucy_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C38004A3422DC276EA8346 /* Pods_Lucy_TestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30BB20CA149CC023C378AC37 /* Pods_Lucy_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lucy_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C38004A3422DC276EA8346 /* Pods_Lucy_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lucy_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA39393A1477F00F4ADBD40 /* Pods-Lucy TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy TestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lucy TestTests/Pods-Lucy TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		6035FC26FD33BF87632AEC52 /* Pods-Lucy TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy TestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lucy TestTests/Pods-Lucy TestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		79C887A81F046E0500C72B75 /* Lucy Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lucy Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C887AB1F046E0500C72B75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79C887AD1F046E0500C72B75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		79C887C71F046E0500C72B75 /* Lucy TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lucy TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C887CB1F046E0500C72B75 /* Lucy_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucy_TestUITests.swift; sourceTree = "<group>"; };
 		79C887CD1F046E0500C72B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79CAB8F51F049A4C000C1D94 /* LucyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LucyTableViewCell.swift; sourceTree = "<group>"; };
+		B05A1426F020CE76A99F740F /* Pods-Lucy TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lucy TestUITests/Pods-Lucy TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C87A4CFB35765CD8116BD262 /* Pods-Lucy TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lucy TestUITests/Pods-Lucy TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D164DC1EFFE801B77692C037 /* Pods-Lucy Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lucy Test/Pods-Lucy Test.debug.xcconfig"; sourceTree = "<group>"; };
+		D7FE1F5F2088667C7D63981C /* Pods_Lucy_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lucy_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA61B8D06A65EC6AA5974E9C /* Pods-Lucy Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy Test.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lucy Test/Pods-Lucy Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E18DF81A20389DFF43B5159E /* Pods_Lucy_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27071EE9D84CC084B230CB7 /* Pods_Lucy_TestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D89967A4AEC6D4F65A3243 /* Pods_Lucy_TestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17AD4F967551F8D0BCEBB212 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30BB20CA149CC023C378AC37 /* Pods_Lucy_Test.framework */,
+				D7FE1F5F2088667C7D63981C /* Pods_Lucy_TestTests.framework */,
+				31C38004A3422DC276EA8346 /* Pods_Lucy_TestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79C8879F1F046E0500C72B75 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				79C887BF1F046E0500C72B75 /* Lucy TestTests */,
 				79C887CA1F046E0500C72B75 /* Lucy TestUITests */,
 				79C887A91F046E0500C72B75 /* Products */,
+				CCA5CA081E6FBC9261F7CA2B /* Pods */,
+				17AD4F967551F8D0BCEBB212 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +128,7 @@
 			children = (
 				79C887AB1F046E0500C72B75 /* AppDelegate.swift */,
 				79C887AD1F046E0500C72B75 /* ViewController.swift */,
+				79CAB8F51F049A4C000C1D94 /* LucyTableViewCell.swift */,
 				79C887AF1F046E0500C72B75 /* Main.storyboard */,
 				79C887B21F046E0500C72B75 /* Assets.xcassets */,
 				79C887B41F046E0500C72B75 /* LaunchScreen.storyboard */,
@@ -125,6 +155,19 @@
 			path = "Lucy TestUITests";
 			sourceTree = "<group>";
 		};
+		CCA5CA081E6FBC9261F7CA2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D164DC1EFFE801B77692C037 /* Pods-Lucy Test.debug.xcconfig */,
+				EA61B8D06A65EC6AA5974E9C /* Pods-Lucy Test.release.xcconfig */,
+				6035FC26FD33BF87632AEC52 /* Pods-Lucy TestTests.debug.xcconfig */,
+				5EA39393A1477F00F4ADBD40 /* Pods-Lucy TestTests.release.xcconfig */,
+				C87A4CFB35765CD8116BD262 /* Pods-Lucy TestUITests.debug.xcconfig */,
+				B05A1426F020CE76A99F740F /* Pods-Lucy TestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79C887D01F046E0500C72B75 /* Build configuration list for PBXNativeTarget "Lucy Test" */;
 			buildPhases = (
+				4C9A120BBF7B2B3BD0FBE23E /* [CP] Check Pods Manifest.lock */,
 				79C887A41F046E0500C72B75 /* Sources */,
 				79C887A51F046E0500C72B75 /* Frameworks */,
 				79C887A61F046E0500C72B75 /* Resources */,
+				DC54259CC1EE41030F2D4750 /* [CP] Embed Pods Frameworks */,
+				7AC6E78D7C967EC5CAF14041 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79C887D31F046E0500C72B75 /* Build configuration list for PBXNativeTarget "Lucy TestTests" */;
 			buildPhases = (
+				F9FCB489131B7FCCA1A9A77F /* [CP] Check Pods Manifest.lock */,
 				79C887B81F046E0500C72B75 /* Sources */,
 				79C887B91F046E0500C72B75 /* Frameworks */,
 				79C887BA1F046E0500C72B75 /* Resources */,
+				D9F2CF5898410BC97ACFB413 /* [CP] Embed Pods Frameworks */,
+				51F38531EA0D52D16D0F1C7B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79C887D61F046E0500C72B75 /* Build configuration list for PBXNativeTarget "Lucy TestUITests" */;
 			buildPhases = (
+				FF41ED82558700C347C566F4 /* [CP] Check Pods Manifest.lock */,
 				79C887C31F046E0500C72B75 /* Sources */,
 				79C887C41F046E0500C72B75 /* Frameworks */,
 				79C887C51F046E0500C72B75 /* Resources */,
+				141D9D5765A87F3ECCB56A2D /* [CP] Embed Pods Frameworks */,
+				997DE59B9D1087534608FEC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +309,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		141D9D5765A87F3ECCB56A2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lucy TestUITests/Pods-Lucy TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C9A120BBF7B2B3BD0FBE23E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		51F38531EA0D52D16D0F1C7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lucy TestTests/Pods-Lucy TestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AC6E78D7C967EC5CAF14041 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lucy Test/Pods-Lucy Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		997DE59B9D1087534608FEC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lucy TestUITests/Pods-Lucy TestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9F2CF5898410BC97ACFB413 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lucy TestTests/Pods-Lucy TestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC54259CC1EE41030F2D4750 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lucy Test/Pods-Lucy Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9FCB489131B7FCCA1A9A77F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF41ED82558700C347C566F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79C887A41F046E0500C72B75 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				79C887AE1F046E0500C72B75 /* ViewController.swift in Sources */,
+				79CAB8F61F049A4C000C1D94 /* LucyTableViewCell.swift in Sources */,
 				79C887AC1F046E0500C72B75 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,32 +606,39 @@
 		};
 		79C887D11F046E0500C72B75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D164DC1EFFE801B77692C037 /* Pods-Lucy Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = USQQZ62WW7;
 				INFOPLIST_FILE = "Lucy Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshua.Lucy-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		79C887D21F046E0500C72B75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA61B8D06A65EC6AA5974E9C /* Pods-Lucy Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = USQQZ62WW7;
 				INFOPLIST_FILE = "Lucy Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshua.Lucy-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		79C887D41F046E0500C72B75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6035FC26FD33BF87632AEC52 /* Pods-Lucy TestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +654,7 @@
 		};
 		79C887D51F046E0500C72B75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA39393A1477F00F4ADBD40 /* Pods-Lucy TestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +670,7 @@
 		};
 		79C887D71F046E0500C72B75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87A4CFB35765CD8116BD262 /* Pods-Lucy TestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = USQQZ62WW7;
@@ -485,6 +685,7 @@
 		};
 		79C887D81F046E0500C72B75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05A1426F020CE76A99F740F /* Pods-Lucy TestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = USQQZ62WW7;
@@ -516,6 +717,7 @@
 				79C887D21F046E0500C72B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79C887D31F046E0500C72B75 /* Build configuration list for PBXNativeTarget "Lucy TestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +726,7 @@
 				79C887D51F046E0500C72B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79C887D61F046E0500C72B75 /* Build configuration list for PBXNativeTarget "Lucy TestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +735,7 @@
 				79C887D81F046E0500C72B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
