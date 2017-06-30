@@ -15,6 +15,9 @@
 		79C887C11F046E0500C72B75 /* Lucy_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C887C01F046E0500C72B75 /* Lucy_TestTests.swift */; };
 		79C887CC1F046E0500C72B75 /* Lucy_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C887CB1F046E0500C72B75 /* Lucy_TestUITests.swift */; };
 		79CAB8F61F049A4C000C1D94 /* LucyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79CAB8F51F049A4C000C1D94 /* LucyTableViewCell.swift */; };
+		79E560561F0692EF00EE9C18 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E560551F0692EF00EE9C18 /* DetailViewController.swift */; };
+		79E560581F06A72500EE9C18 /* CleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E560571F06A72500EE9C18 /* CleanViewController.swift */; };
+		79E5605A1F06A73300EE9C18 /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E560591F06A73300EE9C18 /* YoutubeViewController.swift */; };
 		E18DF81A20389DFF43B5159E /* Pods_Lucy_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BB20CA149CC023C378AC37 /* Pods_Lucy_Test.framework */; };
 		E27071EE9D84CC084B230CB7 /* Pods_Lucy_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FE1F5F2088667C7D63981C /* Pods_Lucy_TestTests.framework */; };
 		F0D89967A4AEC6D4F65A3243 /* Pods_Lucy_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C38004A3422DC276EA8346 /* Pods_Lucy_TestUITests.framework */; };
@@ -56,6 +59,9 @@
 		79C887CB1F046E0500C72B75 /* Lucy_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucy_TestUITests.swift; sourceTree = "<group>"; };
 		79C887CD1F046E0500C72B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79CAB8F51F049A4C000C1D94 /* LucyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LucyTableViewCell.swift; sourceTree = "<group>"; };
+		79E560551F0692EF00EE9C18 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		79E560571F06A72500EE9C18 /* CleanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanViewController.swift; sourceTree = "<group>"; };
+		79E560591F06A73300EE9C18 /* YoutubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
 		B05A1426F020CE76A99F740F /* Pods-Lucy TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy TestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lucy TestUITests/Pods-Lucy TestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C87A4CFB35765CD8116BD262 /* Pods-Lucy TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy TestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lucy TestUITests/Pods-Lucy TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D164DC1EFFE801B77692C037 /* Pods-Lucy Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lucy Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lucy Test/Pods-Lucy Test.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +134,9 @@
 			children = (
 				79C887AB1F046E0500C72B75 /* AppDelegate.swift */,
 				79C887AD1F046E0500C72B75 /* ViewController.swift */,
+				79E560571F06A72500EE9C18 /* CleanViewController.swift */,
+				79E560591F06A73300EE9C18 /* YoutubeViewController.swift */,
+				79E560551F0692EF00EE9C18 /* DetailViewController.swift */,
 				79CAB8F51F049A4C000C1D94 /* LucyTableViewCell.swift */,
 				79C887AF1F046E0500C72B75 /* Main.storyboard */,
 				79C887B21F046E0500C72B75 /* Assets.xcassets */,
@@ -454,7 +463,10 @@
 			files = (
 				79C887AE1F046E0500C72B75 /* ViewController.swift in Sources */,
 				79CAB8F61F049A4C000C1D94 /* LucyTableViewCell.swift in Sources */,
+				79E5605A1F06A73300EE9C18 /* YoutubeViewController.swift in Sources */,
 				79C887AC1F046E0500C72B75 /* AppDelegate.swift in Sources */,
+				79E560581F06A72500EE9C18 /* CleanViewController.swift in Sources */,
+				79E560561F0692EF00EE9C18 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

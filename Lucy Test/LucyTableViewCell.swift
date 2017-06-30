@@ -86,6 +86,7 @@ class LucyTableViewCell: UITableViewCell {
         
         subjectLabel = UILabel()
         subjectLabel.frame = CGRect(nameLabel.frame.origin.x, profileImageView.frame.origin.y+nameLabel.frame.size.height, self.frame.size.width-labelOffset, labelHeight*2)
+        subjectLabel.backgroundColor = UIColor.clear
         subjectLabel.textColor = UIColor.lightGray
         subjectLabel.numberOfLines = 2
         subjectLabel.font = UIFont.systemFont(ofSize: 14)
